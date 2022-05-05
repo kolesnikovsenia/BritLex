@@ -416,9 +416,6 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 15px;
-}
-
-.other_information_row_link li:first-child{
     list-style-type: none;
 }
 
@@ -427,6 +424,5 @@ footer{
     font-weight: 400;
     font-size: 24px;
     color: #8F95A5;
-    list-style-type: disc;
     cursor: pointer;
 }
