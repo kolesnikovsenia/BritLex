@@ -1,0 +1,239 @@
+@media(max-width: 991px) {
+    .container{
+        max-width: 929px;
+        padding: 0 14px;
+        margin: 0% auto;
+    }
+
+    .menu{
+        padding-top: 44px;
+    }
+
+    .link{
+        font-size: 16px;
+    }
+
+    .menu .menu_btn{
+        padding: 12px 40px;
+        font-size: 18px;
+    }
+
+    /* next section "welcome_section" */
+
+    .welcome_section{
+        margin-top: 88px;
+    }
+
+    .welcome_section_column_item{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .welcome_section_title{
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .lamp{
+        height: 59px;
+        width: 59px;
+        padding: 0;
+        margin-left: 12px;
+    }
+
+    .welcome_section_text{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 22px;
+    }
+
+    .welcome_section_btn{
+        margin-top: 33px;
+        padding: 22px 79px;
+        font-size: 24px;
+    }
+
+    .welcome_section_img{
+        height: 460px;
+        width: 460px;
+    }
+
+    /* next section "skills_section"*/
+
+    .skills_section{
+        margin-top: 72px;
+    }
+
+
+    .section_name, h2{
+        font-size: 36px;
+    }
+
+    .skills_section_description{
+        margin-top: 60px;
+        gap: 13px;
+    }
+
+    .skills_section_box{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    /* image size */
+    
+    .speaking_img{
+        width: 280px;
+        height: 250px;
+    }
+
+    .writing_img{
+        width: 205px;
+        height: 162px;
+    }
+
+    .reading_img{
+        width: 243px;
+        height: 162px;
+    }
+    
+    .listening_img{
+        width: 254px;
+        height: 169px;
+    }
+     /* image size */
+
+
+    .skills_section_name{
+        font-size: 22px;
+    }
+
+    .skills_section_box_text{
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .skills_section_btn{
+        margin-top: 10px;
+        padding: 16px 41px;
+        font-size: 18px;
+    }
+
+    .skills_section_description_row_column{
+        gap: 13px;
+    }
+
+    .skills_section_description_row{
+        gap: 13px;
+    }
+
+    .padding_skills_section_box{
+        padding: 20px 24px;
+    }
+
+    /* next section "About Us" */
+
+    .about_section{
+        margin-top: 106px;
+    }
+
+    .about_section_column_text{
+        margin-top: 13px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .num{
+        font-size: 30px;
+        line-height: 80px;
+    }
+
+    .text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .img_section_about{
+        width: 336px;
+        height: 336px;
+    }
+
+    /* next section Pricing */
+
+    .pricing_section{
+        margin-top: 125px;
+    }
+
+    .pricing_section_row{
+        margin-top: 22px;
+        gap: 40px;
+    }
+
+    .pricing_section_row_column{
+        justify-content:flex-start;
+        gap: 10px;
+    }
+
+    .pricing_section_img{
+        width: 267px;
+        height: 222px;
+    }
+    .pricing_section_row_column_title{
+        height: auto;
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .pricing_section_row_column_text{
+        height: 90px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .pricing_section_row_column_price{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .pricing_section_row_column_per_monuth{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* next section Contact us */
+
+    .contact_section{
+        margin-top: 141px;
+    }
+
+
+    .contact_img{
+        width: 312px;
+        height: 281px;
+    }
+
+    .contact_section_row_column_text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contact_section_row_column_input_email{
+        padding: 16px 33px;
+    }
+
+    .contact_section_row_column_btn{
+        font-size: 16px;
+    line-height: 24px;
+    }
+
+    footer{
+        margin-top: 22px;
+        margin-bottom: 24px;
+    }
+
+    .other_info_link{
+        font-size: 15px;
+        line-height: 24px;
+    }
+}   

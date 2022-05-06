@@ -3,10 +3,10 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    box-sizing: border-box;
 }
 .container{
    max-width: 1280px;
-   padding: 0 14px;
    margin: 0% auto;
 }
 a{
@@ -106,6 +106,7 @@ a{
 }
 /* next section "skills_section"*/
 .skills_section{
+    margin-top: 147px;
     align-items: center;
 }
 
@@ -120,7 +121,7 @@ a{
 .skills_section_description{
     margin-top: 96px;
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     gap: 18px;
 }
 
@@ -129,8 +130,8 @@ a{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .skills_section_btn{
@@ -197,7 +198,6 @@ a{
     display: flex;
     align-items: baseline;
     flex-direction: column;
-    gap: inherit;
 }
 
 /* next section "About Us" */
@@ -208,16 +208,15 @@ a{
 
 .about_section_column{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: stretch;
     gap: 10%;
 }
 
 .about_section_column_column{
     display: flex;
-    justify-content: center;
     align-items: baseline;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .about_section_column_text{
@@ -230,7 +229,6 @@ a{
 }
 
 .about_section_column_text_statistics{
-    margin-top: 55px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -248,7 +246,6 @@ a{
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    line-height: 80px;
     color: #2A3246;
 }
 
@@ -256,14 +253,9 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     color: #8F95A5;
 }
-
-.img_section_about{
-    margin-top: 70px;
-}
-/* next section */
+/* next section Pricing */
 
 .pricing_section{
     margin-top: 205px;
@@ -272,7 +264,7 @@ a{
 .pricing_section_row{
     display: flex;
     justify-content: space-between;
-    margin-top: 83px;
+    margin-top: 57px;
     align-items: stretch;
     gap: 100px;
 }
@@ -282,17 +274,16 @@ a{
     flex-direction: column;
     align-items: baseline;
     justify-content:space-between;
-    gap: 30px;
-    flex: 1;
+    gap: 20px;
 }
 
-.pricing_section_row_column :first-child{
-    align-items: center;
+.pricing_section_img{
+    height: 311px;
 }
-
-
 
 .pricing_section_row_column_title{
+    display: block;
+    height: 90px;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -300,6 +291,8 @@ a{
 }
 
 .pricing_section_row_column_text{
+    display: block;
+    height: 120px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -331,7 +324,7 @@ a{
     font-size: 18px;
     color: #546269;
 }
-/* next section */
+/* next section Contact us */
 
 .contact_section{
     margin-top: 261px;
@@ -362,6 +355,7 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    line-height: 30px;
     color: #8F95A5;
 }
 
@@ -402,7 +396,6 @@ footer{
 
 .other_information{
     display: flex;
-    flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
 }
@@ -416,9 +409,6 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 15px;
-}
-
-.other_information_row_link li:first-child{
     list-style-type: none;
 }
 
@@ -427,6 +417,5 @@ footer{
     font-weight: 400;
     font-size: 24px;
     color: #8F95A5;
-    list-style-type: disc;
     cursor: pointer;
 }
