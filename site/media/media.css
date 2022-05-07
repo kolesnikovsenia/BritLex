@@ -1,239 +1,473 @@
 @media(max-width: 991px) {
-    .container{
+    .container {
         max-width: 929px;
         padding: 0 14px;
         margin: 0% auto;
     }
 
-    .menu{
+    .menu {
         padding-top: 44px;
     }
 
-    .link{
+    .link {
         font-size: 16px;
     }
 
-    .menu .menu_btn{
+    .menu .menu_btn {
         padding: 12px 40px;
         font-size: 18px;
     }
 
     /* next section "welcome_section" */
 
-    .welcome_section{
+    .welcome_section {
         margin-top: 88px;
     }
 
-    .welcome_section_column_item{
+    .welcome_section_column_item {
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
 
-    .welcome_section_title{
+    .welcome_section_title {
         font-size: 48px;
         line-height: 64px;
     }
 
-    .lamp{
+    .lamp {
         height: 59px;
         width: 59px;
         padding: 0;
         margin-left: 12px;
     }
 
-    .welcome_section_text{
+    .welcome_section_text {
         font-size: 20px;
         line-height: 30px;
         margin-top: 22px;
     }
 
-    .welcome_section_btn{
+    .welcome_section_btn {
         margin-top: 33px;
         padding: 22px 79px;
         font-size: 24px;
     }
 
-    .welcome_section_img{
+    .welcome_section_img {
         height: 460px;
         width: 460px;
     }
 
     /* next section "skills_section"*/
 
-    .skills_section{
+    .skills_section {
         margin-top: 72px;
     }
 
 
-    .section_name, h2{
+    .section_name,
+    h2 {
         font-size: 36px;
     }
 
-    .skills_section_description{
+    .skills_section_description {
         margin-top: 60px;
         gap: 13px;
     }
 
-    .skills_section_box{
-        justify-content: space-between;
+    .skills_section_box {
         align-items: flex-start;
+        justify-content: unset;
     }
 
     /* image size */
-    
-    .speaking_img{
-        width: 280px;
+
+    .speaking_img {
         height: 250px;
     }
 
-    .writing_img{
-        width: 205px;
+    .writing_img {
         height: 162px;
     }
 
-    .reading_img{
-        width: 243px;
+    .reading_img {
         height: 162px;
     }
-    
-    .listening_img{
-        width: 254px;
+
+    .listening_img {
         height: 169px;
     }
-     /* image size */
+
+    /* image size */
 
 
-    .skills_section_name{
+    .skills_section_name {
         font-size: 22px;
+        margin-bottom: revert;
     }
 
-    .skills_section_box_text{
+    .skills_section_box_text {
+        margin-bottom: revert;
         font-size: 14px;
         line-height: 21px;
     }
 
-    .skills_section_btn{
-        margin-top: 10px;
+    .skills_section_btn {
+        margin-top: auto;
         padding: 16px 41px;
         font-size: 18px;
     }
 
-    .skills_section_description_row_column{
+    .skills_section_description_row_column {
         gap: 13px;
     }
 
-    .skills_section_description_row{
+    .skills_section_description_row {
         gap: 13px;
     }
 
-    .padding_skills_section_box{
+    .padding_skills_section_box {
         padding: 20px 24px;
     }
 
     /* next section "About Us" */
 
-    .about_section{
+    .about_section {
         margin-top: 106px;
     }
 
-    .about_section_column_text{
+    .about_section_column_text {
         margin-top: 13px;
         font-size: 16px;
         line-height: 24px;
     }
 
-    .num{
+    .num {
         font-size: 30px;
         line-height: 80px;
     }
 
-    .text{
+    .text {
         font-size: 16px;
         line-height: 24px;
     }
 
 
-    .img_section_about{
+    .img_section_about {
         width: 336px;
         height: 336px;
     }
 
     /* next section Pricing */
 
-    .pricing_section{
+    .pricing_section {
         margin-top: 125px;
     }
 
-    .pricing_section_row{
+    .pricing_section_row {
         margin-top: 22px;
-        gap: 40px;
     }
 
-    .pricing_section_row_column{
-        justify-content:flex-start;
-        gap: 10px;
-    }
-
-    .pricing_section_img{
-        width: 267px;
+    .pricing_section_img {
         height: 222px;
     }
-    .pricing_section_row_column_title{
-        height: auto;
+
+    .pricing_section_row_column_title {
         font-size: 22px;
         line-height: 34px;
     }
 
-    .pricing_section_row_column_text{
-        height: 90px;
+    .pricing_section_row_column_text {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .pricing_section_row_column_price{
+    .pricing_section_row_column_price {
         font-size: 24px;
         line-height: 36px;
     }
 
-    .pricing_section_row_column_per_monuth{
+    .pricing_section_row_column_per_monuth {
         font-size: 16px;
         line-height: 24px;
     }
 
     /* next section Contact us */
 
-    .contact_section{
+    .contact_section {
         margin-top: 141px;
     }
 
 
-    .contact_img{
-        width: 312px;
+    .contact_img {
         height: 281px;
     }
 
-    .contact_section_row_column_text{
+    .contact_section_row_column_text {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .contact_section_row_column_input_email{
+    .contact_section_row_column_input_email {
         padding: 16px 33px;
     }
 
-    .contact_section_row_column_btn{
+    .contact_section_row_column_btn {
         font-size: 16px;
-    line-height: 24px;
+        line-height: 24px;
     }
 
-    footer{
+    .line {
+        margin-top: 170px;
+    }
+
+    footer {
         margin-top: 22px;
         margin-bottom: 24px;
     }
 
-    .other_info_link{
+    .other_info_link {
         font-size: 15px;
         line-height: 24px;
     }
-}   
+}
+
+@media(max-width: 767px) {
+    .container {
+        max-width: 690px;
+        padding: 0 14px;
+        margin: 0% auto;
+    }
+
+    .menu {
+        padding-top: 39px;
+    }
+
+    .menu_item_link {
+        display: none;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .menu .menu_btn {
+        display: none;
+    }
+
+    /* next section "welcome_section" */
+
+    .welcome_section {
+        margin-top: 68px;
+    }
+
+    .welcome_section_column_item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .welcome_section_title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .lamp {
+        height: 59px;
+        width: 59px;
+        padding: 0;
+        margin-left: 12px;
+    }
+
+    .welcome_section_text {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 25px;
+    }
+
+    .welcome_section_btn {
+        margin-top: 33px;
+        padding: 19px 67px;
+        font-size: 18px;
+    }
+
+    .welcome_section_img {
+        height: 325px;
+        width: 325px;
+    }
+
+    /* next section "skills_section"*/
+
+    .skills_section {
+        margin-top: 56px;
+    }
+
+
+    .section_name,
+    h2 {
+        font-size: 30px;
+    }
+
+    .skills_section_description {
+        margin-top: 37px;
+        gap: 10px;
+    }
+
+    .skills_section_box {
+        align-items: flex-start;
+        justify-content: unset;
+    }
+
+    /* image size */
+
+    .speaking_img {
+        height: 214px;
+    }
+
+    .writing_img {
+        height: 144px;
+    }
+
+    .reading_img {
+        height: 144px;
+    }
+
+    .listening_img {
+        height: 134px;
+    }
+
+    /* image size */
+
+
+    .skills_section_name {
+        font-size: 20px;
+        margin-bottom: revert;
+    }
+
+    .skills_section_box_text {
+        margin-bottom: revert;
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+
+    .skills_section_btn {
+        margin-top: auto;
+        padding: 14px 43px;
+        font-size: 14px;
+    }
+
+    .skills_section_description_row_column {
+        gap: 10px;
+    }
+
+    .skills_section_description_row {
+        gap: 10px;
+    }
+
+    .padding_skills_section_box {
+        padding: 17px 22px;
+    }
+
+    /* next section "About Us" */
+
+    .about_section {
+        margin-top: 52px;
+    }
+
+    .about_section_column_text {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .num {
+        font-size: 22px;
+        line-height: 80px;
+    }
+
+    .text {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .img_section_about {
+        width: 295px;
+        height: 295px;
+    }
+
+    /* next section Pricing */
+
+    .pricing_section {
+        margin-top: 88px;
+    }
+
+    .pricing_section_row {
+        margin-top: 22px;
+    }
+
+    .pricing_section_img {
+        height: 197px;
+    }
+
+    .pricing_section_row_column_title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .pricing_section_row_column_text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .pricing_section_row_column_price {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .pricing_section_row_column_per_monuth {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* next section Contact us */
+
+    .contact_section {
+        margin-top: 65px;
+    }
+
+
+    .contact_img {
+        height: 210px;
+    }
+
+    .contact_section_row_column_text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .contact_section_row_column_input_email {
+        padding: 14px 20px;
+    }
+
+    .contact_section_row_column_btn {
+        font-size: 13px;
+        line-height: 19px;
+        padding: 13px 30px;
+    }
+
+    .line {
+        margin-top: 120px;
+    }
+
+    footer {
+        margin-top: 18px;
+        margin-bottom: 15px;
+    }
+
+    .other_info_link {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}
