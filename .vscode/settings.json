@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "\"Source Code Pro\"",
+    "editor.wordWrap": "on",
+    "editor.insertSpaces": true,
+    "workbench.editor.enablePreview": true
+}
