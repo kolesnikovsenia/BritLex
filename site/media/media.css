@@ -240,6 +240,10 @@
         margin: 0% auto;
     }
 
+    .burger{
+        display: block;
+    }
+
     .menu {
         padding-top: 39px;
     }
