@@ -16,6 +16,10 @@ a {
     color: #000000;
 }
 
+li {
+    list-style-type: none;
+}
+
 .menu {
     padding-top: 50px;
 }
@@ -35,13 +39,21 @@ a {
     gap: 43px;
 }
 
-.link {
+.link,
+.link_hiden {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
+    color: #263238;
 }
 
-.menu .menu_btn {
+.link_hiden {
+    font-size: 22px;
+    color: #263238;
+}
+
+.menu .menu_btn,
+.menu_btn_hiden {
     display: block;
     background-color: #FFFFFF;
     padding: 17px 57px;
@@ -54,6 +66,12 @@ a {
     cursor: pointer;
 }
 
+.menu_btn_hiden {
+    padding: 16px 65px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
 .burger {
     display: none;
     background: none;
@@ -61,7 +79,8 @@ a {
     cursor: pointer;
 }
 
-.burger span {
+.burger span,
+.burger_hiden span {
     display: block;
     height: 3px;
     width: 30px;
@@ -78,20 +97,61 @@ a {
     width: 20px;
 }
 
-.burger_active span:nth-child(1) {
+/* hiden header */
+.header_hiden {
+    display: block;
+    left: -100%;
+    position: fixed;
+    width: 50%;
+    padding-left: 40px;
+    transition: 0.5s all;
+}
+
+.burger_hiden {
+    display: block;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.burger_hiden span:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.burger_hiden span:nth-child(1) {
     transform: translateY(3px) rotate(-45deg);
     margin-bottom: -4px;
 }
 
-.burger_active span:nth-child(2) {
-    display: none;
-}
-
-.burger_active span:nth-child(3) {
+.burger_hiden span:nth-child(2) {
     transform: translateY(3px) rotate(45deg);
     margin-bottom: -4px;
     width: 30px;
 }
+
+.menu_item_hiden_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line_hiden {
+    margin: 21px 0 35px 0;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.menu_item_link_hiden {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    gap: 20px;
+    padding-bottom: 62px;
+}
+
+/* hiden header */
 
 /* next section "welcome_section" */
 
@@ -102,7 +162,7 @@ a {
 
 .welcome_section_column {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
@@ -249,9 +309,14 @@ h2 {
     margin-top: 282px;
 }
 
+.about_section_name_hiden {
+    display: none;
+}
+
 .about_section_column {
     display: flex;
     justify-content: stretch;
+    flex-direction: row-reverse;
     gap: 10%;
 }
 
@@ -379,6 +444,10 @@ h2 {
 
 .contact_section {
     margin-top: 261px;
+}
+
+.contact_section_row_column_title_hiden {
+    display: none;
 }
 
 .contact_section_row {
