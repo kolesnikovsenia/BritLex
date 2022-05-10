@@ -328,7 +328,7 @@
 
     .speaking_img {
         height: 214px;
-        width: 100%;
+        width: 180px;
     }
 
     .writing_img {
@@ -337,6 +337,7 @@
 
     .reading_img {
         height: 144px;
+        width: 180px;
     }
 
     .listening_img {
@@ -372,7 +373,7 @@
     }
 
     .padding_skills_section_box {
-        padding: 24px 16px;
+        padding: 10px 16px 24px 16px;
     }
 
     /* next section "About Us" */
@@ -482,6 +483,22 @@
         max-width: 510px;
     }
 
+    .header_hiden {
+        width: 100%;
+    }
+
+    .body_wrapper {
+        display: none;
+    }
+
+    .body_wrapper.active {
+        display: none;
+    }
+
+    .body_wrapper {
+        transition: 0.3s all;
+    }
+
     .off {
         display: none;
     }
@@ -503,6 +520,7 @@
     }
 
     .welcome_section_title {
+        text-align: center;
         font-size: 33px;
         margin-top: 30px;
     }
@@ -532,6 +550,43 @@
     .section_name,
     h2 {
         font-size: 30px;
+    }
+
+    .skills_section_name {
+        text-align: center;
+    }
+
+    .skills_section_description {
+        flex-wrap: wrap;
+    }
+
+    .skills_section_box {
+        align-items: center;
+    }
+
+    .skills_section_box:nth-child(2) {
+        width: 100%;
+    }
+
+    .skills_section_box_text {
+        text-align: center;
+    }
+
+    .skills_section_description_row_column {
+        flex-wrap: wrap;
+    }
+
+    .listening_box_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listening_column_text {
+        align-items: center;
+    }
+
+    .listening_section_text {
+        text-align: center;
     }
 
     /* next section "About Us" */
@@ -644,4 +699,127 @@
         text-align: center;
         font-size: 16px;
     }
+
+    .contact_section_row_column_btn {
+        font-size: 16px;
+        padding: 20px 56px;
+    }
+
+    .line {
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+
+    .other_info_link {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 320px) {
+    .container {
+        max-width: 290px;
+        padding: 0px 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .header_hiden {
+        width: 100%;
+    }
+
+    .welcome_section_title {
+        margin-top: 0;
+        font-size: 24px;
+    }
+
+    .welcome_section_text {
+        font-size: 14px;
+    }
+
+    .welcome_section_btn {
+        font-size: 16px;
+        padding: 18px 90px;
+    }
+
+    .skills_section_name {
+        text-align: start;
+    }
+
+    .skills_section_description {
+        flex-wrap: wrap;
+    }
+
+    .skills_section_box {
+        align-items: flex-start;
+    }
+
+    .skills_section_box_text {
+        text-align: start;
+    }
+
+    .listening_box_row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .listening_column_text {
+        align-items: flex-start;
+    }
+
+    .listening_section_text {
+        text-align: left;
+    }
+
+    .about_section_column_text_statistics {
+        flex-direction: column;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .pricing_section_row_column_title {
+        font-size: 18px;
+    }
+
+    .contact_section_row_column_title_hiden {
+        margin-bottom: 50px;
+    }
+
+    .contact_section_row_column_text {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .contact_section_row_column_input {
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .contact_section_row_column_input_email {
+        padding: 16px 0px 16px 11px;
+    }
+
+    .contact_section_row_column_btn {
+        padding: 20px 50px;
+        font-size: 14px;
+    }
+
+    .other_information {
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .other_information_row_link {
+        gap: 7px;
+    }
+
+    .other_info_link {
+        text-align: row;
+        font-size: 10px;
+    }
+
+
 }
