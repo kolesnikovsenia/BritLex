@@ -460,6 +460,10 @@
         line-height: 20px;
     }
 
+    .contact_section_row_column_input {
+        gap: 5px;
+    }
+
     .contact_section_row_column_input_email {
         padding: 14px 20px;
     }
@@ -490,7 +494,7 @@
         max-width: 510px;
     }
 
-    .header_hiden {
+    .mobile_menu {
         width: 100%;
     }
 
@@ -742,7 +746,7 @@
         font-size: 24px;
     }
 
-    .header_hiden {
+    .mobile_menu {
         width: 100%;
     }
 
